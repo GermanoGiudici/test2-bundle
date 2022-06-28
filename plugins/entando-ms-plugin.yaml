@@ -1,6 +1,6 @@
 image: germanogiudici/lapam-keycloak-manager:0.0.2-SNAPSHOT
 dbms: none
-ingressPath: "/entando-template-go-api"
+ingressPath: "/lapam-keycloack-manager-api"
 healthCheckPath: "/actuator/health"
 roles:
   - "lapam-admin"
